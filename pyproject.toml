@@ -10,6 +10,11 @@ readme = "README.md"
 python = "^3.10"
 
 
+[tool.poetry.scripts]
+hello_world = "basics.hello_world:main"
+my_group = "basics.my_group:main"
+
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
